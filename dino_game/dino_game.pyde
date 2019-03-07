@@ -23,6 +23,7 @@ def draw():
                 del el
     myCar1.drive()
     myCar1.display()
+    print(str(mouseX) + str(mouseY))
     
 def mouseClicked():
     myCar1.jump()
