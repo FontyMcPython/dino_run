@@ -3,18 +3,21 @@
 
 03/08/2019:
 ## MAIN: `dino_game.pyde`
-This file is the main file of the game, intended to be run with Processing. It implemets
-the main features of the game. It is written using Python for Processing, which greatly
-simplifyes the development.
+This file is the main file of the game, intended to be run with Processing, implemets
+the main features of the game. It is written using Python Processing, which is a Python-based
+language and environment made to be used for graphics programming, greatly simplifying the 
+development.
+
+The variables that handle every element are declared globally: `myCar1` and `parts`. The
+first one is merely a container for a `Dino` object whereas the other is a [double-ended queue](https://en.wikipedia.org/wiki/Double-ended_queue) that will hold up to 100 particles.
 
 As a Processing file, it has two main functions. The first one, `setup()`, is run
 at the start of the program. In it, the window is initialized to a fixed size of 800x800 
 and the framerate is locked to 30. The second one, `draw()`, contains the main logic
-of the game to be run every frame. In it, the image is reset to continue plotting
-the elements. 
+of the game to be run every frame. In it, the image is reset to continue plotting and handling
+the logic for every item.
 
-The variables that handle every element are declared globally: myCar1 and parts. The
-first one is merely a container for a `Dino` object whereas the other is a [double-ended queue](https://en.wikipedia.org/wiki/Double-ended_queue) that will hold up to 100 particles.
+
 
 ## Objects
 
