@@ -1,12 +1,14 @@
 # Dino_run
 03/07/2019: Chrome's dinosaur run but self made with [Processing](https://py.processing.org/). A simple project to test some ideas I had for a while. Feel free to hit me up with suggestions or ideas!!
 
+03/08/2019
+
 ## Objects
 
 ### Dino
 
-This is an object to implement the dinosaur. It has an `xpos` and a `ypos` parameters to store its position and a `yspeed`
-to store the vertical speed. It also has an `anim` variable that works internally to manage the animation.
+This is an object to implement the behaviour and plotting of the dinosaur. It has both `xpos` and a `ypos` parameters to store its position and a `yspeed` parameter
+to store the vertical speed. It also has an `anim` parameter that works internally to manage the animation.
 
 #### Methods
 
