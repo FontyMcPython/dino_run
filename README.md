@@ -2,6 +2,19 @@
 03/07/2019: Chrome's dinosaur run but self made with [Processing](https://py.processing.org/). A simple project to test some ideas I had for a while. Feel free to hit me up with suggestions or ideas!!
 
 03/08/2019:
+## MAIN: `dino_game.pyde`
+This file is the main file of the game, intended to be run with Processing. It implemets
+the main features of the game. It is written using Python for Processing, which greatly
+simplifyes the development.
+
+As a Processing file, it has two main functions. The first one, `setup()`, is run
+at the start of the program. In it, the window is initialized to a fixed size of 800x800 
+and the framerate is locked to 30. The second one, `draw()`, contains the main logic
+of the game to be run every frame. In it, the image is reset to continue plotting
+the elements. 
+
+The variables that handle every element are declared globally: myCar1 and parts. The
+first one is merely a container for a `Dino` object whereas the other is a [double-ended queue](https://en.wikipedia.org/wiki/Double-ended_queue) that will hold up to 100 particles.
 
 ## Objects
 
